@@ -2,7 +2,8 @@ App({
     globalData:{
         g_isPlayingMusic:false,
         g_currentMusicPostId:null,
-        douBanBase:'https://api.douban.com'
+        // douBanBase:'https://api.douban.com'
+        douBanBase: 'http://t.yushu.im'
     }
 })
 

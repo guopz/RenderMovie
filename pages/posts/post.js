@@ -22,6 +22,7 @@ Page({
     // e.target 事件触发（点击） 阶段 - image
     // 点击 image 事件向上冒泡，到catchtap 阻止冒泡，捕获事件
     var postId = e.target.dataset.postid;
+    console.log(postId);
     wx.navigateTo({
       url: 'post-detail/post-detail?id=' + postId
     }) 
